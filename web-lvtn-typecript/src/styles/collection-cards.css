@@ -1,0 +1,11 @@
+.redOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    /* Điều chỉnh vị trí */
+    height: 30%;
+    /* Điều chỉnh chiều cao */
+    background-color: rgba(255, 0, 0, 0.3);
+    /* Màu đỏ trong suốt */
+    pointer-events: none; }

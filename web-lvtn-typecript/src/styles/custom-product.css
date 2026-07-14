@@ -1,0 +1,12 @@
+/* Ẩn thanh cuộn trên Chrome, Safari, Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ẩn thanh cuộn trên Firefox */
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* IE và Edge */ }
+
+    

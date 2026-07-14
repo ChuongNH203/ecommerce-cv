@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="checkbox"] {
+accent-color: rgb(220, 87, 47);
+}

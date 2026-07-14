@@ -1,0 +1,14 @@
+services:
+  ecommerce_api:
+    build: .
+    image: ecommerce_api:latest
+    container_name: ecommerce_api
+    ports:
+      - "3000:3000"
+    networks:
+      - ecommerce_network
+
+networks:
+  ecommerce_network:
+    name: ecommerce_network
+    external: true

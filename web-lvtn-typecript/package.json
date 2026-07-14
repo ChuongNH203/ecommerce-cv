@@ -1,0 +1,90 @@
+{
+  "name": "web-lvtn-typecript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^2.6.1",
+    "@ant-design/icons": "^6.0.0",
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
+    "@hookform/resolvers": "^5.0.1",
+    "@tanstack/react-query": "^5.76.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "antd": "^5.26.5",
+    "axios": "^1.9.0",
+    "axios-retry": "^4.5.0",
+    "chart.js": "^4.5.0",
+    "csv-parser": "^3.2.0",
+    "dayjs": "^1.11.13",
+    "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.511.0",
+    "rc-cascader": "^3.34.0",
+    "rc-select": "^14.16.8",
+    "rc-table": "^7.50.5",
+    "rc-tree-select": "^5.27.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-fontawesome": "^1.7.1",
+    "react-hook-form": "^7.56.4",
+    "react-icons": "^4.12.0",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^6.30.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-virtualized": "^9.22.6",
+    "slick-carousel": "^1.8.1",
+    "tw-elements-react": "^1.0.0-alpha-end",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/lodash": "^4.17.17",
+    "@types/react-modal": "^3.16.3",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.88.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

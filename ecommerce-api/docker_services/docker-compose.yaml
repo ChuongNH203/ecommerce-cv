@@ -1,0 +1,29 @@
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    xpose:
+      - "3306"
+    volumes:
+      - ${MYSQL_VOLUME}:/var/lib/mysql
+    networks:
+        - ecommerce_network 
+    healthcheck:
+        est: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+        interval: 30s
+        timeout: 10s
+        retries: 5  
+
+networks:
+    ecommerce_network:
+        driver: bridge
+        driver_opts:
+            com.docker.network.bridge.host_binding_ipv4: 127.0.0.1

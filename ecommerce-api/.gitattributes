@@ -1,0 +1,19 @@
+# Docker
+Dockerfile text
+docker-compose.yml text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Documentation
+*.md text diff=markdown
+*.rst text
+*.txt text
+
+# Configuration files
+*.ini text
+*.cfg text
+*.conf text
+*.toml text
+*.env text
